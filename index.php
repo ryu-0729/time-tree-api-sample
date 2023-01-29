@@ -15,7 +15,7 @@ $instance = new OauthClient(
 
 if (isset($_POST['createEvent'])) {
     $event = $instance->createEvent(new CreateEventParams(
-        $_ENV['Calendar_ID'],
+        $_ENV['CALENDAR_ID'],
         'test Event',
         'schedule',
         true,
