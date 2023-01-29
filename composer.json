@@ -1,0 +1,9 @@
+{
+    "require": {
+        "timetree/timetree-sdk-php": "^1.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "config": {
+        "platform-check": false
+    }
+}
